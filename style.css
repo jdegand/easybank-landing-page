@@ -1,0 +1,110 @@
+body {
+  font-family: "Public Sans", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(233, 8%, 62%);
+  font-weight: 300;
+}
+
+.bg-light-gray {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.gray-text {
+  color: hsl(233, 26%, 24%);
+}
+
+.nav-link:hover {
+  color: black;
+  border-bottom: 4px solid hsl(136, 65%, 51%);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+
+.navbar-toggler {
+  outline: none;
+  border: none;
+}
+
+.footer {
+  background: hsl(233, 26%, 24%);
+  color: white;
+  text-align: center;
+}
+
+.img {
+  width: 72px;
+}
+
+.mockups {
+  background-image: url(images/bg-intro-mobile.svg);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.easybank {
+  background: hsl(0, 0%, 98%);
+}
+
+.btn:hover {
+  opacity: .8;
+}
+
+.footer ul li:hover {
+  color: hsl(136, 65%, 51%);
+}
+
+.icon:hover {
+  filter: invert(62%) sepia(34%) saturate(952%) hue-rotate(83deg) brightness(102%) contrast(87%);
+}
+
+.next-gen-p {
+  max-width: 45ch;
+}
+
+ .green-hover:hover {
+  color: hsl(136, 65%, 51%);
+}
+
+.footer li {
+  line-height: 2;
+}
+
+.mobile-hidden {
+  display: none;
+}
+
+
+@media (min-width: 800px) {
+  .mockups {
+    background-image: url(images/bg-intro-desktop.svg);
+    background-size: cover;
+    background-position: 20% 0%;
+  }
+
+  .mockup-img {
+    width: 90%;
+    padding-left: 10%;
+  }
+
+  .mobile-hidden {
+    display: flex;
+  }
+
+}
