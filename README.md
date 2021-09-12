@@ -53,5 +53,6 @@ Users should be able to:
 ### Useful resources
 
 - [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
-- [W3 Schools](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp)
-- [Tutorial Republic](https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php)
+- [W3 Schools](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp) - Bootstrap Navbar
+- [Tutorial Republic](https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php) - Bootstrap Navbar
+- [Medium](https://medium.com/coder-grrl/the-guide-to-customising-the-bootstrap-4-navbar-i-wish-id-had-6-months-ago-7bc6ce0e3c71) - Navbar customization
